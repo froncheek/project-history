@@ -8,10 +8,16 @@ leya.def(module, 'App.view.Main', {
 	policy: 'alluser',
 	contents: [{
 		code: 'leya.view.timeline.Main',
-		renderData: function() {
-			return {
-				contents: '<li>Test</li>'
-			}
-		}
+		contents: [{
+			code: 'leya.view.timeline.Item'
+		}, {
+			code: 'leya.view.timeline.Item'
+		}, {
+			code: 'leya.view.timeline.Item'
+		}, {
+			code: 'leya.view.timeline.Item'
+		}, {
+			code: 'leya.view.timeline.Item'
+		}]
 	}]
 });
