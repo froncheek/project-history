@@ -1,0 +1,24 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "jsleya": "^0.1.0",
+    "mongoose": "^4.1.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froncheek/project-history.git"
+  },
+  "author": "Jhe Ilagan",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/froncheek/project-history/issues"
+  },
+  "homepage": "https://github.com/froncheek/project-history#readme"
+}
