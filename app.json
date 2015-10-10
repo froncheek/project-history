@@ -1,7 +1,13 @@
 {
 	"policies": {
+		"anonymous": {
+			"role": "anonymous"	
+		},
 		"alluser": {
 			"role": "*"
+		},
+		"admin": {
+			"role": "admin"
 		}
 	}
 }
